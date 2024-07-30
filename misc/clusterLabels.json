@@ -1,0 +1,253 @@
+{
+  "type": "FeatureCollection",
+  "columns": {
+    "cluster": "Short<0, 255>"
+  },
+  "properties": {
+    "band_order": [
+      "cluster"
+    ]
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "0",
+      "properties": {
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "1",
+      "properties": {
+        "cluster": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "2",
+      "properties": {
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "3",
+      "properties": {
+        "cluster": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "4",
+      "properties": {
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "5",
+      "properties": {
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "6",
+      "properties": {
+        "cluster": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "7",
+      "properties": {
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "8",
+      "properties": {
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "9",
+      "properties": {
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "10",
+      "properties": {
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "11",
+      "properties": {
+        "cluster": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "12",
+      "properties": {
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "13",
+      "properties": {
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "14",
+      "properties": {
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "15",
+      "properties": {
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "16",
+      "properties": {
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "17",
+      "properties": {
+        "cluster": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "18",
+      "properties": {
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "19",
+      "properties": {
+        "cluster": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "20",
+      "properties": {
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "21",
+      "properties": {
+        "cluster": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "22",
+      "properties": {
+        "cluster": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "23",
+      "properties": {
+        "cluster": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "24",
+      "properties": {
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "25",
+      "properties": {
+        "cluster": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "26",
+      "properties": {
+        "cluster": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "27",
+      "properties": {
+        "cluster": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "28",
+      "properties": {
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": null,
+      "id": "29",
+      "properties": {
+        "cluster": 1
+      }
+    }
+  ]
+}

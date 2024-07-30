@@ -1,8 +1,3 @@
-# Paddy Quality Estimation for the Government of Telangana
-Our team with Radhikesh Agrawal, Ujjwal Shekhar, Siddharth Singh, Anika Roy and Mayank Goel won the first place in Megathon, the largest 24hr student-run hackathon in Hyderabad with 700+ participants from 30+ colleges across India.
-
-https://github.com/Anika-Roy/Rice_Estimation_using_Satellite_Images/assets/102136135/ea5c6072-983a-482e-88e8-d5f1b9436f33
-
 # Abstract
 
 ## Clustering Region into Parts
@@ -25,4 +20,12 @@ To assess water quality, we employ two key indices:
 
 The method for calculating water quality involves the use of NDWI and NDCI. NDWI typically quantifies the water content, while NDCI assesses chlorophyll content in plants. By combining these indices and analyzing their values, we can make inferences about the quality of water resources in a given area, particularly in relation to vegetation and aquatic ecosystems.
 
-More details in our presentation, hope you found it insightful!
+## Calculating Quality of Crops
+
+Our evaluation of crop quality relies on two primary parameters:
+
+- Water quality 
+
+- Nighttime ground temperature: Monitoring nighttime ground temperatures allows us to identify regions with optimal thermal conditions for crop growth. Crops tend to thrive when nighttime temperatures fall within a certain range.
+
+Regions exhibiting both optimal nighttime temperatures and higher values of NDCI are more likely to have better crop yields.

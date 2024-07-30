@@ -1,0 +1,33 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{algorithm}
+\usepackage{algpseudocode}
+
+\begin{document}
+
+\begin{algorithm}
+\caption{Cooley-Tukey Fast Fourier Transform (FFT)}
+\begin{algorithmic}[1]
+\Require Input data array $x$ of length $N = 2^n$, where $n$ is a non-negative integer.
+\Ensure FFT result in array $X$ of length $N$.
+\Function{FFT}{$x, N$}
+\If{$N = 1$}
+    \State $X[0] \gets x[0]$
+\Else
+    \State Split $x$ into even and odd parts:
+    \State $x_{\text{even}}[k] \gets x[2k]$ for $k = 0, 1, \ldots, N/2 - 1$
+    \State $x_{\text{odd}}[k] \gets x[2k + 1]$ for $k = 0, 1, \ldots, N/2 - 1$
+    \State Compute FFT of even and odd parts:
+    \State $\text{FFT}(X_{\text{even}}, N/2)$
+    \State $\text{FFT}(X_{\text{odd}}, N/2)$
+    \State Combine results:
+    \For{$k = 0$ to $N/2 - 1$}
+        \State $X[k] \gets X_{\text{even}}[k] + W_N^k \cdot X_{\text{odd}}[k]$
+        \State $X[k + N/2] \gets X_{\text{even}}[k] - W_N^k \cdot X_{\text{odd}}[k]$
+    \EndFor
+\EndIf
+\EndFunction
+\end{algorithmic}
+\end{algorithm}
+
+\end{document}
